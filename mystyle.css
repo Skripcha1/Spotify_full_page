@@ -1,0 +1,188 @@
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+body{
+    height: 100vw; 
+    flex-grow: 1;
+}
+header{
+    background-color:black;
+    display: flex;
+}
+img {
+    width: 10%;
+    height: auto;
+    padding: 20px; 
+}
+nav{
+    display: flex;
+    padding: 20px;
+    padding-left: 35em;
+    color: #fff;
+    font-size: 1em;
+    font-weight: bolder;
+
+}
+nav a{
+   color: white;
+   text-decoration: none;
+   padding: 20px;
+}
+nav:nth-child(1){
+    color: rgba(255, 255, 255, 0.486);
+}
+nav a:hover{
+    color:rgba(30, 215, 96, 1) ;
+}
+.hero{
+    background-color: #1d75de;
+    color: white;
+    height: 20em;
+}
+.hero h1{
+    padding-top: 50px;
+    margin-left: 15px;
+    font-size: 40px;
+    font-weight: 900;
+    padding-bottom: 40px;
+
+}
+.hero p{
+    margin-left: 15px;
+    font-size: 24px;
+    font-weight: 400;
+}
+.but{
+    display: block;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.but :nth-child(1){
+    border: 2px solid black; 
+    margin-left: 15px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: black;
+    margin-right: 10px;
+}
+.but :nth-child(2){
+    border: 2px solid white;
+    margin-left: 15px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px ;
+    margin-right: 10px;
+    margin-bottom: 50px;
+}
+.link:hover
+{
+    font-size: large;
+}
+.hero1{
+    padding-left: 10px;
+    color: white;
+    font-size: 0.7em;
+  
+}
+.hero1 a{
+    color: white;
+   }
+   .first{
+    margin-left: 50px;
+    padding-bottom: 5em;
+}
+.first h3{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 46px;
+    margin-top: 2em;
+   
+}
+.first dl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first dt{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.first img{
+    width: 30%;
+    height: auto;
+    display: flex; 
+}
+.image .image1{
+    width: 30%;
+    
+
+}
+.image dt{
+    padding-right: 100px;
+    white-space: nowrap;
+}
+
+
+footer{
+    background-color:black;
+    margin-top: -15px;
+}
+.foot{
+    padding: 20px;
+}
+.foot span{
+    padding-right: 7em;
+}
+.last{
+    display: flex;
+    justify-content: center;
+    gap: 4em;
+    margin-top: -3.5em;
+    margin-left: 4em;
+}
+.info{
+    color:rgba(145, 148, 150, 1)
+}
+.info a{
+    color: white;
+    text-decoration: none;
+    line-height: 2em;
+}
+.align1{
+    color: rgba(145, 148, 150, 1);
+    text-decoration: none;
+    font-size: 0.6em;
+    
+}
+.align:hover{
+    color: rgba(30, 215, 96, 1)
+}
+.contact{
+    display: flex;
+    
+    margin-left: 10em;
+}
+.contact img{
+    width: 100%;
+    background-color: #222326;
+    border-radius: 50%;
+    display: flex;
+    gap: 3em;
+}
+.right{
+    margin-left: 110em;
+}
+.copy{
+    margin-left: 35em;
+}
