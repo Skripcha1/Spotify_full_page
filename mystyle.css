@@ -4,6 +4,10 @@
     padding: 0;
     box-sizing: border-box;
 } 
+:root{
+    --BGCOLOR:#efefef
+    --ALT_BGCOLOR:#1d75de
+}
 body{
     height: 100vw; 
     flex-grow: 1;
@@ -132,8 +136,121 @@ nav a:hover{
     padding-right: 100px;
     white-space: nowrap;
 }
+.second{
+    width: 100%;
+    height: 45em;
+    background-color: #efefef;;
+}
+.second h2{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.second1{
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 70px;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card1 {
+    max-width: 22%;
+    height: auto;
+    background-color: #fff;
+    margin-left: 10px;
+    border-style: outset;
+    border-radius: 10px;
+}
+.card1 .para0{
+    margin-bottom: 10px;
+    color: #fff;
+}
+.card1 .para1{
+    width: 85%;
+    color: #fff;
+    background-color: #1d75de;
+    border: 1px solid #1d75de;
+    padding: 2px;
+    border-radius: 3px;
+    margin: 10px;
+    font-weight: bold;
+}
+.card1 .para2{
+    width: 70%;
+    color:  #1d75de;
+    background-color:;
+    border: 1px solid #1d75de;
+    padding: 2px;
+    border-radius: 3px;
+    margin: 10px;
+    font-weight: bold;
+}
+.card1 h3{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 24px;
+    margin: 10px;
+}
+.para3 , .para4{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 10px;
+}
 
+#link{
+    margin: 20px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid black;
+    background-color: black;
+    padding: 10px 45px;
+    border-radius: 20px;
+}
+#link:hover{
+    font-size: large;
+}
+ hr{
+    margin: 10px;
+    height: 2px;  
+}
+.para5{
+    margin: 10px;
+    margin-top: 20px;
+    font-size: 10px;
+    padding-bottom:20px;
+}
 
+.para5 a{
+    color: inherit;
+}
+.list{
+    margin: 20px;
+    margin-bottom: 80px;
+    line-height: 20px;
+}
+.list1{
+    margin: 20px;
+    margin-bottom: 75px;
+}
+.list2{
+    margin: 20px;
+    margin-bottom:65px;
+}
+.list3{
+    margin: 20px;
+    margin-bottom:60px;
+}
+.para6{
+    color: #fff;
+    margin: 10px;
+}
 footer{
     background-color:black;
     margin-top: -15px;
@@ -186,3 +303,54 @@ footer{
 .copy{
     margin-left: 35em;
 }
+
+/* @media screen and (min-width:576px)  {
+    .but :nth-child(1){
+        display: block;
+    }
+    .but :nth-child(2){
+        display: block;
+    }
+    .menu-button{
+        background-color: transparent;
+        border: none;
+        width: 48px;
+        height: 48px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .menu-icon{
+        background-color:white ;
+        width: 40px;
+        height: 5px;
+        border-radius: 5px;
+        position: absolute;
+        transition: all 0.3s;
+        
+    }
+    .menu-icon::before{
+        background-color:white ;
+        width: 40px;
+        height: 5px;
+        border-radius: 5px;
+        position: absolute;
+        transition: all 0.3s;
+        content: "";
+        transform: translate(-10px);
+        transform: translateY( -10px);
+    }
+    .menu-icon::after{
+        background-color:white ;
+        width: 40px;
+        height: 5px;
+        border-radius: 5px;
+        position: absolute;
+        transition: all 0.5s;
+        content: "";
+        transform: translateX(-10px);
+        transform: translateY( 10px);
+    }
+   
+} */
