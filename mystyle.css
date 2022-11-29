@@ -112,7 +112,7 @@ nav a:hover{
     margin-top: 2em;
    
 }
-.first dl{
+.first .dlist{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -129,8 +129,6 @@ nav a:hover{
 }
 .image .image1{
     width: 30%;
-    
-
 }
 .image dt{
     padding-right: 100px;
@@ -287,11 +285,10 @@ footer{
 }
 .contact{
     display: flex;
-    
     margin-left: 10em;
 }
 .contact img{
-    width: 100%;
+    width: 80%;
     background-color: #222326;
     border-radius: 50%;
     display: flex;
@@ -304,53 +301,170 @@ footer{
     margin-left: 35em;
 }
 
-/* @media screen and (min-width:576px)  {
+@media screen and (min-width:576px)  {
+    body{
+        width: 567px;
+        height: 100vw; 
+    }
+    img {
+        width: 30%;
+        height: auto;
+        padding: 20px; 
+    }
+   .first .dlist{
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
     .but :nth-child(1){
         display: block;
     }
     .but :nth-child(2){
         display: block;
     }
-    .menu-button{
-        background-color: transparent;
-        border: none;
-        width: 48px;
-        height: 48px;
+    .second{
+        width: 100%;
+        height: 130em;
+        background-color: #efefef;;
+    }
+    .cards{
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        position: relative;
+        gap: 1em;
     }
-    .menu-icon{
-        background-color:white ;
-        width: 40px;
-        height: 5px;
-        border-radius: 5px;
-        position: absolute;
-        transition: all 0.3s;
+    .card1 {
+        max-width: 82%;
+        height: 30% ;
+        background-color: #fff;
+        margin-left: 10px;
+        border-style: outset;
+        border-radius: 10px;
+    }
+    .card1 .para1{
+        display: inline;
+        width: 55%;
+    }
+    .card1 .para2{
+        display: inline;
+        width: 40%;
         
     }
-    .menu-icon::before{
-        background-color:white ;
-        width: 40px;
-        height: 5px;
-        border-radius: 5px;
-        position: absolute;
-        transition: all 0.3s;
-        content: "";
-        transform: translate(-10px);
-        transform: translateY( -10px);
+    #link{
+        display: block;
+        justify-content: center;
+      
+       
     }
-    .menu-icon::after{
-        background-color:white ;
-        width: 40px;
-        height: 5px;
-        border-radius: 5px;
-        position: absolute;
+    .last{
+        display: inline;
+        justify-content: center;
+        gap: 4em;
+        margin-top: -3.5em;
+        margin-left: 4em;
+    }
+    .contact{
+        margin-top: 2em;
+        margin-left: -1em;
+    }
+    .right{
+        margin-left: 50em;
+    }
+    .foot span{
+        padding-right: 2em;
+    }
+    .copy{
+        margin-left: 8em;
+    }
+   .menu {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-left: 24em;
+    }
+
+    .menu-inner {
+        display: flex;
+        flex-direction: column;
+    }
+    .menu-inner .bar {
+        width: 30px;
+        background: #ffff;
+        height: 2px;
+        display: inline-block;
+        border-radius: 50px;
         transition: all 0.5s;
-        content: "";
-        transform: translateX(-10px);
-        transform: translateY( 10px);
+        transform-origin: right;
     }
-   
-} */
+    
+    .menu-inner .bar-2 {
+    margin: 7px 0px;
+    }
+    
+    .menu-inner:hover {
+    cursor: pointer;
+    }
+    
+    .menu-inner:hover .bar-2 {
+    width: 15px;
+    }
+    
+    .menu-inner:hover .bar-1 {
+    transform: rotate(-45deg);
+    }
+    
+    .menu-inner:hover .bar-3 {
+    transform: rotate(45deg);
+    }
+      
+
+    nav a{
+        display: none;
+    }
+    nav{
+        display: none;
+    }
+} 
+
+@media screen and (min-width:768px){
+    body{
+        width:768px
+    }
+    .but :nth-child(1){
+        display: inline;
+    }
+    .but :nth-child(2){
+        display: inline;
+    }
+    .menu{
+        padding-left: 30em;
+    }
+    .las{
+        display: flex;
+        gap: 3em;
+        padding: 5em;
+       
+    }
+    .right{
+        margin-left: 69em;
+    }
+    .copy{
+        margin-left: 28em;
+    }
+    .contact{
+        display: flex;
+        margin-left: 5em;
+    }
+    .contact img{
+        width: 80%;
+        background-color: #222326;
+        border-radius: 50%;
+        display: flex;
+        gap: 3em;
+    }
+} 
